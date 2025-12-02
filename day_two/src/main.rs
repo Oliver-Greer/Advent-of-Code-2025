@@ -51,7 +51,7 @@ use std::fs;
 fn is_invalid(num: &i64) -> bool {
 
     let num_str: String = num.to_string();
-    for slice_len in 1..num_str.len() {
+    for slice_len in 1..num_str.len() / 2 + 1 {
         if num_str.len() % slice_len != 0 {
             continue;
         } else {
