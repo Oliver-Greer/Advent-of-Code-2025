@@ -2,6 +2,7 @@
     "rust-analyzer.linkedProjects": [
         "./day_one/Cargo.toml",
         "./day_two/Cargo.toml",
-        "./day_three/Cargo.toml"
+        "./day_three/Cargo.toml",
+        "./day_four/Cargo.toml"
     ]
 }
